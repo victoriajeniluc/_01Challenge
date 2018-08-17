@@ -10,20 +10,15 @@
 
 public class _2Question {
     public static void main(String[] args) {
-        int number = 100;
-        int result = number % 2;
+        int number = 59;
 
-        switch(result) {
+        switch(number % 2) {
             default:
-                System.out.println("not valid");
+                System.out.println("odd");
                 break;
             case 0:
                 System.out.println("even");
                 break;
-            case 1:
-                System.out.println("odd");
-                break;
-
         }
     }
 }
