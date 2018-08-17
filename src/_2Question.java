@@ -10,7 +10,7 @@
 
 public class _2Question {
     public static void main(String[] args) {
-        int number = 1;
+        int number = 100;
         int result = number % 2;
 
         switch(result) {
